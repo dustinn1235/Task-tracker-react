@@ -25,7 +25,7 @@ code {
 .container {
   display: flex;
   flex-direction: column;
-  width: 45vw;
+  width: min(95vw, 35rem);
   height: 90vh;
   border: 2px solid rgb(171, 171, 171);
   padding-left: 2rem;
@@ -43,6 +43,7 @@ code {
 
 .header h1 {
   margin: 0;
+  font-size: clamp(25.6px, 8vw, 32px);
 }
 
 .header button {
@@ -135,4 +136,16 @@ code {
 
 .reminder p {
   margin-left: 0.95rem;
+}
+
+/*Footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin-bottom: 0;
 }
