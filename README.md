@@ -2,6 +2,9 @@
 Simple todo-list web app
 https://dustinn1235.github.io/Task-tracker-react/
 
+![image](https://user-images.githubusercontent.com/60798675/225155622-b3a9b307-7a07-44ba-a52b-5277faccf151.png)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
